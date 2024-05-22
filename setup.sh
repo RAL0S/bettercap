@@ -28,7 +28,7 @@ check_env() {
 }
 
 install() {
-  wget https://github.com/AttifyOS/bettercap/releases/download/bin-e224eea/bettercap-e224eea.tgz -O $RALPM_TMP_DIR/bettercap.tgz
+  wget https://github.com/RAL0S/bettercap/releases/download/ve224eea/bettercap-e224eea.tgz -O $RALPM_TMP_DIR/bettercap.tgz
   tar xf $RALPM_TMP_DIR/bettercap.tgz -C $RALPM_PKG_INSTALL_DIR/
   chmod +x $RALPM_PKG_INSTALL_DIR/bettercap
   ln -s $RALPM_PKG_INSTALL_DIR/bettercap $RALPM_PKG_BIN_DIR/bettercap
